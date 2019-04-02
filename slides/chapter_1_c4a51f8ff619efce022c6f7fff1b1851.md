@@ -3,7 +3,7 @@ title: Insert title here
 key: c4a51f8ff619efce022c6f7fff1b1851
 
 ---
-## Title Slide
+## Combining SUM with CASE WHEN
 
 ```yaml
 type: "TitleSlide"
@@ -116,7 +116,7 @@ key: "e0605ab8f6"
 &nbsp;
 
 ```SELECT order_type,SUM(CASE WHEN order_date = '2019-03-17' THEN order_value ELSE 0 END) AS amount
-GROUP BY order_type```
+GROUP BY order_type```{{1}}
 
 
 `@script`

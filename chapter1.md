@@ -44,7 +44,7 @@ This is an example exercise.
 
 ---
 
-## Insert exercise title here
+## Combining SUM with CASE WHEN
 
 ```yaml
 type: VideoExercise
